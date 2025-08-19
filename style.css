@@ -1,0 +1,137 @@
+ body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: gold;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      text-decoration: none;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    /* ==== Header ==== */
+    header {
+      background-color: yellowgreen;
+      padding: 20px;
+      border-radius: 50px;
+      box-shadow: 0 0 20px aliceblue;
+      border: 1px solid aliceblue;
+    }
+
+    header h1 {
+      font-family: cursive;
+      font-size: x-large;
+    }
+
+    /* ==== Tentang Saya ==== */
+    section.tentang-saya {
+      background-color: goldenrod;
+      border-radius: 20px;
+      border: 1px solid black;
+      box-shadow: 0px 0px 55px snow;
+      margin-top: 20px;
+      padding: 20px;
+      transition: 0.5s ease;
+    }
+
+    section.tentang-saya:hover {
+      background-color: rgb(255, 47, 0);
+      color: rgb(208, 255, 0);
+    }
+
+    section.tentang-saya img {
+      width: 200px;
+      object-fit: cover;
+      border-radius: 50px;
+      border: 1px solid snow;
+    }
+
+    /* ==== Skill List ==== */
+    ol.skill-list {
+      background-color: grey;
+      border-radius: 20px;
+      list-style-position: inside;
+      padding: 10px;
+    }
+
+    ol.skill-list li {
+      background-color: gray;
+      margin: 5px 0;
+    }
+
+    ol.skill-list li:nth-child(1) { color: rgb(3, 248, 3); }
+    ol.skill-list li:nth-child(2) { color: cyan; }
+    ol.skill-list li:nth-child(3) { color: yellow; }
+    ol.skill-list li:nth-child(4) { color: red; }
+
+    /* ==== Riwayat Pendidikan ==== */
+    section.riwayat {
+      background-color: orange;
+      border-radius: 6px;
+      border: 1px solid snow;
+      padding: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: auto;
+    }
+
+    table, th, td {
+      border: 5px solid black;
+      padding: 5px;
+    }
+
+    /* ==== Kotak tambahan ==== */
+    .kotak {
+      box-sizing: border-box;
+      background-color: aqua;
+      width: 500px;
+      height: 150px;
+      margin: auto;
+      align-items: center;
+      padding: 50px;
+      border: 8px solid green;
+    }
+    .belajar-box-sizing{
+        box-sizing: border-box;
+        background-color: yellowgreen;
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        padding: 50px 50px 50px 50px;
+        border-radius: 20px;
+        border: 2px dotted snow;
+        margin-top: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: bisque;
+    }
+
+    /* ==== Footer ==== */
+    footer {
+      background-color: gray;
+      color: aliceblue;
+      margin: auto;
+      padding: 20px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: aliceblue;
+    }
